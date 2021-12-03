@@ -1,0 +1,50 @@
+.home-container{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.video-container{
+  height: 100%;
+
+  width: 100%;
+  .video-element{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+   &:hover{
+    cursor: url('./assets/images/blunt.png'), auto;	
+   }
+  }
+}
+
+.mouth{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  width: 460px;
+  height: 160px;
+  bottom: 22%;
+  margin-left: auto; 
+  margin-right: auto; 
+  &:hover{
+    cursor: url('./assets/images/blunt.png'), auto;	
+   }
+}
+.counter{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  h1,h2{
+    margin-bottom: 0px;
+  }
+}
